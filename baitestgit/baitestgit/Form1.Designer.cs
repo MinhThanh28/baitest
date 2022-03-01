@@ -34,6 +34,7 @@ namespace baitestgit
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtpassword = new System.Windows.Forms.TextBox();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -76,11 +77,21 @@ namespace baitestgit
             this.txtpassword.Size = new System.Drawing.Size(100, 23);
             this.txtpassword.TabIndex = 2;
             // 
+            // btnLogin
+            // 
+            this.btnLogin.Location = new System.Drawing.Point(316, 279);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(75, 23);
+            this.btnLogin.TabIndex = 4;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtpassword);
             this.Controls.Add(this.txtUsername);
@@ -100,6 +111,7 @@ namespace baitestgit
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtpassword;
+        private System.Windows.Forms.Button btnLogin;
     }
 }
 

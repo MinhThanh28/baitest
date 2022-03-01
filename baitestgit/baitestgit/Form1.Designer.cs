@@ -42,9 +42,9 @@ namespace baitestgit
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(67, 52);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 15);
+            this.label1.Size = new System.Drawing.Size(84, 15);
             this.label1.TabIndex = 0;
-            this.label1.Text = "UserName";
+            this.label1.Text = "tên đăng nhập";
             // 
             // label2
             // 
@@ -68,7 +68,7 @@ namespace baitestgit
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(57, 15);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Password";
+            this.label3.Text = "mật khẩu";
             // 
             // txtpassword
             // 

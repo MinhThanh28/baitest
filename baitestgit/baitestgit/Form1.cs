@@ -17,5 +17,14 @@ namespace baitestgit
             InitializeComponent();
         }
 
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            string user = txtUsername.Text;
+            string pass = txtpassword.Text;
+            if (user == "admin" && pass == "admin")
+            {
+                MessageBox.Show("Đăng nhập thành công");
+            }
+        }
     }
 }
